@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title> memMain </title>
+  <style>
+    table, th, td {
+        border : 1px solid white;
+        border-collapse : collapse;
+    }
+    th, td {
+        border-radius : 50px;
+        color : #F0F8FF;
+        background-color : #6495ED;
+		font-size : 18px
+    }
+    table.fixed_T{
+		position: fixed;
+		left : 150px;
+		top : 10px;
+	}
+	table.fixed_B{
+		position: fixed;
+		left : 150px;
+		bottom : 50px;
+	}
+	img.fixed_i{
+		position: fixed;
+		left : 550px;
+		top : 150px;
+	}
+  </style> 
+  
+ </head>
+
+ <body>
+	<table border=1 width="1200px" 
+				height="70px" align = "center" class='fixed_T'>
+		<tr>
+			<th width=200 onClick="location.href='./memMainMunni.html'">Main</th>
+			<th width=200 onClick="location.href='./memLogMunni.html'">Login</th>
+			<th width=200 onClick="location.href='./memInsMunni.html'">Insert</th>
+			<th width=200 onClick="location.href='./memUpdMunni.html'">Update</th>
+			<th width=200 onClick="location.href='./memDelMunni.html'">Delete</th>
+			<th width=200 onClick="location.href='./memSelMunni.html'">Select</th>
+		</tr>
+	</table>
+	<div>
+		<img src="dancing.gif" width="400px" height="400px" class='fixed_i'>
+	</div>
+  	<table border=1 width="1200px" 
+				height="40px" align ="center" class='fixed_B'>
+		<tr>
+			<th width=200>2022.05.31</th>
+			<th width=800>@ Copyright Orange</th>
+			<th width=200>관리자</th>
+		</tr>
+	</table>
+ </body>
+</html>

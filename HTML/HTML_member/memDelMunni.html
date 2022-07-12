@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title> memDelMunni </title>
+  <style>
+    table, th, td {
+        border : 1px solid white;
+        border-collapse : collapse;
+    }
+	th, td {
+		border-radius : 10px;
+        color : #6495ED;
+        background-color : #F0F8FF;
+	}
+    th.TB, td.TB {
+        border-radius : 50px;
+        color : #F0F8FF;
+        background-color : #6495ED;
+		font-size : 18px
+    }
+    table.fixed_T{
+		position: fixed;
+		left : 150px;
+		top : 10px;
+	}
+	table.fixed_B{
+		position: fixed;
+		left : 150px;
+		bottom : 50px;
+	}
+	table.fixed_1{
+		position: fixed;
+		left : 350px;
+		top : 100px;
+	}
+	.button {
+        padding : 5px 50px;
+        text-align : center;
+        display : inline-block;
+        font-size : 17px;
+        margin : 1px 1px;
+        cursor : pointer;
+        background-color: white;
+        color : black;
+        border : 2px solid #6495ED;
+        border-radius : 10px;
+    }
+    .button:hover {
+        background-color: #6495ED;
+        color : white;
+    }
+  </style> 
+  
+ </head>
+
+ <body>
+	<table border=1 width="1200px" 
+				height="70px" align = "center" class='fixed_T'>
+		<tr>
+			<th width=200 onClick="location.href='./memMainMunni.html'" class='TB'>Main</th>
+			<th width=200 onClick="location.href='./memLogMunni.html'" class='TB'>Login</th>
+			<th width=200 onClick="location.href='./memInsMunni.html'" class='TB'>Insert</th>
+			<th width=200 onClick="location.href='./memUpdMunni.html'" class='TB'>Update</th>
+			<th width=200 onClick="location.href='./memDelMunni.html'" class='TB'>Delete</th>
+			<th width=200 onClick="location.href='./memSelMunni.html'" class='TB'>Select</th>
+		</tr>
+	</table>
+	<table border=1 width="800px" 
+				height="200px" align = "center" class='fixed_1'>
+		<tr>
+			<th colspan=2 style = "background-color : #6495ED; color : #F0F8FF">Delete</th>
+		</tr>
+		<tr>
+			<th width = 200>ID</th>
+			<td>	</td>
+		</tr>
+		<tr>
+			<th>Password</th>
+			<td>	</td>
+		</tr>
+		<tr>
+			<th colspan=2 height=50px style = "background-color : #87CEFA">
+			<button class="button" width=200px> Delete </button>
+			<button class="button" width=200px> Cancel </button>
+			</th>
+		</tr>
+	</table>
+  	<table border=1 width="1200px" 
+				height="40px" align ="center" class='fixed_B'>
+		<tr>
+			<th width=200 class='TB'>2022.05.31</th>
+			<th width=800 class='TB'>@ Copyright Orange</th>
+			<th width=200 class='TB'>관리자</th>
+		</tr>
+	</table>
+ </body>
+</html>
